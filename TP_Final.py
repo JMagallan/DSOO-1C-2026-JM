@@ -10,6 +10,7 @@ class Material (object):
         self.estado = estado
         self.anio = anio
         self.editorial = editorial
+        
     
  
         Material.contador_id += 1
