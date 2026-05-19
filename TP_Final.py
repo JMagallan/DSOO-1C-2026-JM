@@ -40,3 +40,19 @@ revista=Revista("caras","Español", "Literatura",True,"Disponible",2020,"Editor
 print(revista.id)
 revista2=Revista("caras","Español", "Literatura",True,"Disponible",2020,"Editorial 1",20,10,1,"imagen")
 print(revista2.id)
+
+class socio (object):
+    def __init__(self,nombre,apellido,telefono,correo,id_socio):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.telefono = telefono
+        self.correo = correo
+        self.id_socio = id_socio
+
+class prestamo (object):
+    def __init__(self,id_material,id_socio,fecha_prestamo,fecha_devolucion,fecha_vencimiento):
+        self.id_material = id_material
+        self.id_socio = id_socio
+        self.fecha_prestamo = fecha_prestamo
+        self.fecha_devolucion = fecha_devolucion
+        self.fecha_vencimiento = fecha_vencimiento
