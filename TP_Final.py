@@ -48,6 +48,14 @@ class socio (object):
         self.telefono = telefono
         self.correo = correo
         self.id_socio = id_socio
+        
+    def __reservar__ (self,material):
+        if  matrial.disponible == True:
+            material.disponible = False
+            print("Material reservado")
+        else:
+            print("Material no disponible")
+           
 
 class prestamo (object):
     def __init__(self,id_material,id_socio,fecha_prestamo,fecha_devolucion,fecha_vencimiento):
