@@ -57,7 +57,7 @@ class socio (object):
             print("Material no disponible")
            
 
-class prestamo (object):
+class Prestamos (object):
     def __init__(self,id_material,id_socio,fecha_prestamo,fecha_devolucion,fecha_vencimiento):
         self.id_material = id_material
         self.id_socio = id_socio
