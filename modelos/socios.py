@@ -5,3 +5,6 @@ class Socio (object):
         self.telefono = telefono
         self.correo = correo
         self.id_socio = id_socio
+        
+    def nombre_completo (self):
+        return f"{self.nombre} {self.apellido}"    
