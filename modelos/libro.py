@@ -7,5 +7,5 @@ class Libro (Material):
         
     def mostrar_info (self):
          Material.mostrar_info(self)
-         print(self.titulo)
-         print(self.disponible)   
+         print(self.hoja)
+         print(self.autores)   

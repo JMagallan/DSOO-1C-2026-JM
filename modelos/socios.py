@@ -7,4 +7,4 @@ class Socio (object):
         self.id_socio = id_socio
         
     def nombre_completo (self):
-        return f"{self.nombre} {self.apellido}"    
+        return self.nombre + " " + self.apellido   
